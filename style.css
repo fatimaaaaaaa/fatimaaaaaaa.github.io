@@ -1,0 +1,195 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  background-color: #d87f7f;
+  background-image: linear-gradient(135deg, #d87f7f 0%, #9599e2 100%);
+}
+
+h4 {
+  padding-top: 1rem;
+}
+
+.container-fluid {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#navbarbar {
+  padding-left: 20px;
+  margin-bottom: 15px;
+  background-color: #232323;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(
+    to bottom right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  border-image-slice: 1;
+}
+
+#navbarbar .nav-item .nav-link {
+  color: white;
+}
+
+#navbarbar .nav-item .nav-link:hover {
+  color: rgb(197, 197, 197);
+}
+
+#nav2 {
+  margin: 0 auto;
+  font-size: 24px;
+  text-align-last: center;
+  margin-bottom: 15px;
+  margin-top:5px;
+}
+
+#nav2 > span {
+  border-bottom: 2px solid rgba(70, 70, 70);
+  color: white;
+}
+
+#pills-tab .nav-item .nav-link {
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+h5 {
+  border-bottom: 1px solid rgb(154, 154, 154);
+  width: 40%;
+  padding-bottom: 5px;
+}
+
+#pills-tab .nav-item .nav-link:after {
+  content: "";
+  display: block;
+  width: 0;
+  margin: auto;
+  height: 1px;
+  background: #fff;
+  transition: width 0.3s;
+}
+
+#pills-tab .nav-item .nav-link:hover {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+#pills-tab .nav-item .nav-link:hover::after {
+  width: 100%;
+}
+
+.tab-pane {
+  text-align: -webkit-center;
+}
+
+.carousel {
+  background-color: rgba(260, 260, 260, 0.5);
+  padding: 25px 20px;
+  border-radius: 0.5rem;
+  height: auto;
+  border: 2px solid white;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+.carousel-item {
+  width: 100%;
+}
+
+.carousel-inner {
+  padding: 20px;
+}
+
+.carousel-item > img {
+  height: 100%;
+}
+
+.caption {
+  padding-bottom: 20px;
+  border-radius: 1rem;
+  font-size: 16px;
+  color: black;
+}
+
+.subcaption {
+  color: black;
+  padding-top: 20px;
+  height: 200px;
+  font-size: 16px;
+}
+
+.subcaption > p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.carousel-control-prev {
+  margin-left: -12%;
+}
+
+.carousel-control-next {
+  margin-right: -12%;
+}
+
+.display-3 {
+  margin-top: 30px;
+}
+
+#image-container {
+  width: 100%;
+  background-color: rgba(260, 260, 260, 0.7);
+  padding: 25px 20px;
+  border-radius: 0.5rem;
+  height: auto;
+  border: 2px solid white;
+  text-align: -webkit-center;
+  margin: 0 auto;
+}
+
+#image-container img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.col-6 {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.col-lg-6 a {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+.col-lg-6 {
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  width: 100px;
+  margin: 5px;
+  height: 50px;
+}
+
+#qflowcharts {
+  text-align-last: center;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.modal-body {
+  padding-bottom: 20px;
+  border-radius: 1rem;
+  font-size: 16px;
+  color: black;
+}
