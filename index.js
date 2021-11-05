@@ -259,7 +259,7 @@ const optQueriesPhotonChart = new Chart(optQueriesPhoton, {
 
 const scalQueriesPhoton = document.getElementById('scalabilitiesphoton').getContext('2d');
 const scalQueriesPhotonChart = new Chart(scalQueriesPhoton, {
-    type: 'line',
+    type: 'bar',
     data: {
         labels: [
             "Q1",
@@ -299,4 +299,3 @@ const scalQueriesPhotonChart = new Chart(scalQueriesPhoton, {
           ],
     },
 });
-
